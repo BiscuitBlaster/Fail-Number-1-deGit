@@ -1,0 +1,1687 @@
+﻿Log file open, 06/19/20 11:27:57
+LogInit: Display: Running engine for game: NeonKnight
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.140734
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername="Biscuit Blaster" -epicuserid=d0e88a65270345e0bc90d156782632da -epiclocale=fr
+LogInit: Base Directory: D:/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Engine.ini]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.06.19-09.27.57:434][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.06.19-09.27.57:435][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Engine.ini]
+[2020.06.19-09.27.57:444][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Engine.ini]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Engine.ini]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.19-09.27.57:444][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Engine.ini]
+[2020.06.19-09.27.57:444][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Engine.ini]
+[2020.06.19-09.27.57:448][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.19-09.27.57:448][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.19-09.27.57:449][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.19-09.27.57:449][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.19-09.27.57:449][  0]LogHAL: Display: Platform has ~ 16 GB [17038893056 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.19-09.27.57:449][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.19-09.27.57:449][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.19-09.27.57:449][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Scalability.ini]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.19-09.27.57:450][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Config/Windows/Engine.ini]
+[2020.06.19-09.27.57:450][  0]LogInit: Computer: DESKTOP-P35QBS4
+[2020.06.19-09.27.57:450][  0]LogInit: User: sacha
+[2020.06.19-09.27.57:450][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.06.19-09.27.57:450][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.19-09.27.57:451][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.06.19-09.27.57:451][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.19-09.27.57:451][  0]LogMemory: Process Physical Memory: 115.41 MB used, 115.41 MB peak
+[2020.06.19-09.27.57:451][  0]LogMemory: Process Virtual Memory: 104.54 MB used, 104.54 MB peak
+[2020.06.19-09.27.57:451][  0]LogMemory: Physical Memory: 4459.77 MB used,  11789.78 MB free, 16249.55 MB total
+[2020.06.19-09.27.57:451][  0]LogMemory: Virtual Memory: 5152.37 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.06.19-09.27.57:454][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.19-09.27.57:485][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.06.19-09.27.57:486][  0]LogInit: Using OS detected language (fr-FR).
+[2020.06.19-09.27.57:486][  0]LogInit: Using OS detected locale (fr-FR).
+[2020.06.19-09.27.57:488][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2020.06.19-09.27.57:488][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.06.19-09.27.57:488][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.06.19-09.27.57:488][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.06.19-09.27.57:488][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.06.19-09.27.57:488][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.06.19-09.27.57:489][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.06.19-09.27.57:489][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.06.19-09.27.57:489][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.19-09.27.57:516][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.19-09.27.57:516][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.19-09.27.57:706][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.19-09.27.57:706][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.19-09.27.57:706][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.19-09.27.57:706][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.19-09.27.57:770][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.06.19-09.27.57:770][  0]LogD3D11RHI:       6052/0/8124 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.06.19-09.27.57:788][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.06.19-09.27.57:788][  0]LogD3D11RHI:       128/0/8124 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.06.19-09.27.57:790][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.19-09.27.57:790][  0]LogD3D11RHI:       0/0/8124 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.19-09.27.57:790][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.19-09.27.57:795][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.19-09.27.57:795][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.19-09.27.57:795][  0]LogWindows: EnumDisplayDevices:
+[2020.06.19-09.27.57:795][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2020.06.19-09.27.57:795][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.06.19-09.27.57:795][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.06.19-09.27.57:796][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.06.19-09.27.57:796][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.06.19-09.27.57:796][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.06.19-09.27.57:796][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.06.19-09.27.57:796][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.06.19-09.27.57:796][  0]LogD3D11RHI:   Driver Version: 446.14 (internal:26.21.14.4614, unified:446.14)
+[2020.06.19-09.27.57:796][  0]LogD3D11RHI:      Driver Date: 5-15-2020
+[2020.06.19-09.27.57:796][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.06.19-09.27.57:841][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.19-09.27.57:843][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.06.19-09.27.57:843][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.19-09.27.57:843][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.06.19-09.27.57:896][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.06.19-09.27.58:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.19-09.27.58:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.19-09.27.58:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.19-09.27.58:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.19-09.27.58:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.19-09.27.58:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.19-09.27.58:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.19-09.27.58:214][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.19-09.27.58:214][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.19-09.27.58:214][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.19-09.27.58:214][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.19-09.27.58:234][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.19-09.27.58:234][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.19-09.27.58:244][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.06.19-09.27.58:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.19-09.27.58:261][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.19-09.27.58:268][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.19-09.27.58:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.19-09.27.58:286][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.19-09.27.58:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.19-09.27.58:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.19-09.27.58:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.19-09.27.58:333][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.19-09.27.58:333][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.19-09.27.58:343][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.19-09.27.58:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.19-09.27.58:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.19-09.27.58:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.19-09.27.58:370][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.19-09.27.58:379][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.19-09.27.58:432][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Intermediate/Shaders/WorkingDirectory/5640/).
+[2020.06.19-09.27.58:432][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sacha/AppData/Local/Temp/UnrealShaderWorkingDir/3634554A4906C31D056EA0B16CDEAAF4/'.
+[2020.06.19-09.27.58:432][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.19-09.27.58:432][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.19-09.27.58:432][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.19-09.27.59:166][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.19-09.27.59:226][  0]LogDerivedDataCache: Loaded boot cache 0.06s 104MB C:/Users/sacha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.19-09.27.59:226][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sacha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.06.19-09.27.59:226][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.19-09.27.59:226][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.19-09.27.59:226][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.19-09.27.59:226][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.19-09.27.59:235][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.19-09.27.59:235][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.19-09.27.59:236][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.19-09.27.59:237][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sacha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.19-09.27.59:237][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.19-09.27.59:237][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.19-09.27.59:292][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.19-09.27.59:292][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.19-09.27.59:317][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.06.19-09.27.59:567][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.19-09.27.59:690][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.19-09.27.59:690][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.19-09.27.59:690][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.19-09.27.59:690][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.19-09.27.59:690][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.19-09.27.59:704][  0]LogNetVersion: NeonKnight 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4144215268)
+[2020.06.19-09.28.00:127][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000021EBA0A0E00), frame # 0
+[2020.06.19-09.28.00:127][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021EB9FC3B00), frame # 0
+[2020.06.19-09.28.00:128][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021EBA074400), frame # 0
+[2020.06.19-09.28.00:228][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.095691 seconds
+[2020.06.19-09.28.00:233][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.06.19-09.28.00:233][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.06.19-09.28.00:233][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.19-09.28.00:573][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.19-09.28.00:577][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.19-09.28.00:668][  0]SourceControl: Source control is disabled
+[2020.06.19-09.28.00:668][  0]SourceControl: Source control is disabled
+[2020.06.19-09.28.00:671][  0]SourceControl: Source control is disabled
+[2020.06.19-09.28.00:674][  0]SourceControl: Source control is disabled
+[2020.06.19-09.28.00:680][  0]SourceControl: Source control is disabled
+[2020.06.19-09.28.00:905][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.19-09.28.00:924][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.19-09.28.00:924][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.19-09.28.00:968][  0]LogOcInput: OculusInput pre-init called
+[2020.06.19-09.28.00:976][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.19-09.28.00:976][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.19-09.28.01:031][  0]LogEngine: Initializing Engine...
+[2020.06.19-09.28.01:033][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.19-09.28.01:033][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.06.19-09.28.01:034][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.19-09.28.01:146][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.19-09.28.01:153][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.19-09.28.01:153][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021EC00A5200), frame # 0
+[2020.06.19-09.28.01:153][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021EC0067B00), frame # 0
+[2020.06.19-09.28.01:171][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.19-09.28.01:171][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.19-09.28.01:171][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.19-09.28.01:171][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.19-09.28.01:171][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.19-09.28.01:171][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.19-09.28.01:171][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.19-09.28.01:171][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.19-09.28.01:172][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.19-09.28.01:172][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.19-09.28.01:184][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-09.28.01:184][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-09.28.01:222][  0]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Realtek High Definition Audio)
+[2020.06.19-09.28.01:224][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.19-09.28.01:226][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.19-09.28.01:226][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.19-09.28.01:227][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.19-09.28.01:228][  0]LogInit: FAudioDevice initialized.
+[2020.06.19-09.28.01:228][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.19-09.28.01:317][  0]LogDerivedDataCache: Saved boot cache 0.09s 104MB C:/Users/sacha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.19-09.28.01:325][  0]LogInit: Texture streaming: Enabled
+[2020.06.19-09.28.01:353][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.19-09.28.01:353][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.19-09.28.01:356][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.19-09.28.01:482][  0]LogInit: Transaction tracking system initialized
+[2020.06.19-09.28.01:501][  0]BlueprintLog: New page: Editor Load
+[2020.06.19-09.28.01:565][  0]LocalizationService: Localization service is disabled
+[2020.06.19-09.28.01:769][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.19-09.28.01:769][  0]LogCook: Display: Mobile HDR setting 0
+[2020.06.19-09.28.01:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Content/' took 0.01s
+[2020.06.19-09.28.02:113][  0]SourceControl: Source control is disabled
+[2020.06.19-09.28.02:113][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.609
+[2020.06.19-09.28.02:113][  0]Cmd: MAP LOAD FILE="C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.19-09.28.02:113][  0]LightingResults: New page: Lighting Build
+[2020.06.19-09.28.02:114][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.19-09.28.02:114][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.19-09.28.02:114][  0]MapCheck: New page: Map Check
+[2020.06.19-09.28.02:114][  0]LightingResults: New page: Lighting Build
+[2020.06.19-09.28.02:122][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021EC00A5200), frame # 0
+[2020.06.19-09.28.02:122][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021EC0067B00), frame # 0
+[2020.06.19-09.28.02:123][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.06.19-09.28.03:924][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.06.19-09.28.03:924][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021EA7860600), frame # 0
+[2020.06.19-09.28.03:924][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021EC05B4B80), frame # 0
+[2020.06.19-09.28.04:002][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.19-09.28.04:016][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.06.19-09.28.04:016][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.19-09.28.04:016][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,19ms to complete.
+[2020.06.19-09.28.04:016][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.903
+[2020.06.19-09.28.04:018][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.514
+[2020.06.19-09.28.04:700][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.19-09.28.04:718][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.19-09.28.04:725][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.19-09.28.04:732][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.19-09.28.04:790][  0]LogCollectionManager: Loaded 0 collections in 0.000825 seconds
+[2020.06.19-09.28.04:881][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Saved/Collections/' took 0.00s
+[2020.06.19-09.28.04:881][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Content/Developers/sacha/Collections/' took 0.00s
+[2020.06.19-09.28.04:881][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sacha/Desktop/NéonKnight/UnrealProject/NeonKnight/Content/Collections/' took 0.00s
+[2020.06.19-09.28.04:881][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 3426 classes and 820 folders.
+[2020.06.19-09.28.04:914][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.06.19-09.28.07:045][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.06.19-09.28.07:089][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2020.06.19-09.28.07:424][  0]LogSlate: Took 0.000799 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.19-09.28.07:445][  0]LogSlate: Took 0.000709 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.19-09.28.08:002][  0]LogRenderer: Reallocating scene render targets to support 548x464 Format 10 NumSamples 1 (Frame:1).
+[2020.06.19-09.28.08:184][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.06.19-09.28.08:184][  0]LogLoad: (Engine Initialization) Total time: 12.68 seconds
+[2020.06.19-09.28.08:184][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.19-09.28.08:239][  0]LogAssetRegistry: Asset discovery search completed in 8.9235 seconds
+[2020.06.19-09.28.08:243][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.06.19-09.28.08:251][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.19-09.28.09:568][  4]LogSlate: Took 0.023236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.19-09.28.10:443][ 66]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.28.11:495][187]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2020.06.19-09.28.12:392][187]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.06.19-09.28.14:411][187]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Sprite/Font/Bwing_Blueprint.Bwing_Blueprint
+[2020.06.19-09.28.14:876][187]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Platform/SequencePTF1.SequencePTF1
+[2020.06.19-09.28.15:817][187]LogSlate: Took 0.022336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.19-09.28.15:829][187]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.19-09.28.16:516][188]LogSlate: Took 0.024299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.19-09.29.21:669][601]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.29.21:988][601]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{6d4cc3ec-a079-4bf3-bf54-85f3a5e58ee2}.
+[2020.06.19-09.29.21:989][601]LogTemp: Resetting audio stream to device id 
+[2020.06.19-09.29.22:043][601]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-09.29.22:043][601]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-09.30.32:619][813]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.31.43:865][ 26]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.32.54:900][238]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.33.54:707][935]LogSlate: Window 'Bwing_Blueprint' being destroyed
+[2020.06.19-09.34.05:820][248]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.35.17:105][206]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.36.28:271][419]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.37.39:439][632]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.38.50:586][845]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.40.01:468][ 57]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.41.12:637][270]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.42.23:736][483]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.43.34:922][696]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.44.45:776][908]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.45.56:983][121]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.47.08:122][334]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.48.18:978][546]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.49.30:232][759]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.50.41:092][971]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.51.52:299][184]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.53.03:470][397]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.54.08:954][593]LogHttp: Warning: 0000021ECACCF200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-09.54.08:955][593]LogHttp: Warning: 0000021ECACCF200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.06.19-09.54.08:955][593]LogHttp: Warning: 0000021ECACCF200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x21efd507f70 [can pipeline])
+[2020.06.19-09.54.08:955][593]LogHttp: Warning: 0000021ECACCF200: libcurl info message cache 1 (Re-using existing connection! (#9) with host datarouter.ol.epicgames.com)
+[2020.06.19-09.54.08:955][593]LogHttp: Warning: 0000021ECACCF200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.220.31.49) port 443 (#9))
+[2020.06.19-09.54.08:955][593]LogHttp: Warning: 0000021ECACCF200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.06.19-09.54.08:955][593]LogHttp: Warning: 0000021ECACCF200: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.06.19-09.54.08:955][593]LogHttp: Warning: 0000021ECACCF200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.06.19-09.54.08:955][593]LogHttp: Warning: 0000021ECACCF200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.06.19-09.54.08:955][593]LogHttp: Warning: 0000021ECACCF200: libcurl info message cache 7 (Closing connection 9)
+[2020.06.19-09.54.09:287][594]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-09.54.14:633][610]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.55.25:462][822]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.56.36:666][ 35]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.57.47:758][248]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-09.58.58:871][461]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.00.10:022][674]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.01.21:105][887]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.02.31:889][ 99]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.03.41:593][312]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.04.52:728][525]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.06.03:856][738]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.07.14:952][951]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.08.26:125][164]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.08.29:482][173]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{07012d9e-715f-40b0-afff-be3d11b97ab1}.
+[2020.06.19-10.08.29:482][173]LogTemp: Resetting audio stream to device id 
+[2020.06.19-10.08.29:498][173]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-10.08.29:498][173]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-10.09.36:958][376]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.10.48:312][590]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.11.59:346][803]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.13.10:391][ 16]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.14.21:417][229]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.15.32:426][442]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.16.38:863][640]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{6d4cc3ec-a079-4bf3-bf54-85f3a5e58ee2}.
+[2020.06.19-10.16.38:863][640]LogTemp: Resetting audio stream to device id 
+[2020.06.19-10.16.38:917][640]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-10.16.38:917][640]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-10.16.39:198][641]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{6d4cc3ec-a079-4bf3-bf54-85f3a5e58ee2}.
+[2020.06.19-10.16.39:198][641]LogTemp: Resetting audio stream to device id 
+[2020.06.19-10.16.39:371][641]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-10.16.39:371][641]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-10.16.43:540][655]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.17.54:460][867]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.19.05:716][ 80]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.20.16:858][293]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.21.27:948][ 17]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.22.38:792][227]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.23.49:925][438]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.25.01:153][650]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.26.12:265][293]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.27.23:130][504]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.28.34:199][716]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.29.45:315][928]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.30.56:475][140]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.32.07:594][352]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.33.18:671][564]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.34.29:735][776]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.35.05:981][883]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{07012d9e-715f-40b0-afff-be3d11b97ab1}.
+[2020.06.19-10.35.05:981][883]LogTemp: Resetting audio stream to device id 
+[2020.06.19-10.35.06:006][883]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-10.35.06:007][883]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-10.35.26:482][944]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{6d4cc3ec-a079-4bf3-bf54-85f3a5e58ee2}.
+[2020.06.19-10.35.26:482][944]LogTemp: Resetting audio stream to device id 
+[2020.06.19-10.35.26:776][944]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-10.35.26:776][944]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-10.35.40:910][988]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.36.52:015][200]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.38.02:960][411]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.39.13:990][645]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.40.24:979][857]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.41.36:306][ 70]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.42.47:237][282]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.43.58:459][495]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.45.09:373][707]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.46.20:635][920]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.47.31:565][132]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.48.42:793][345]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.49.11:624][430]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{07012d9e-715f-40b0-afff-be3d11b97ab1}.
+[2020.06.19-10.49.11:624][430]LogTemp: Resetting audio stream to device id 
+[2020.06.19-10.49.11:691][430]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-10.49.11:692][430]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-10.49.53:833][557]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.51.04:872][769]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.52.15:896][981]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.53.26:942][193]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.54.37:960][405]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.55.49:280][618]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.57.00:299][830]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.58.11:294][ 42]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-10.59.22:309][254]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.00.33:330][466]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.01.44:692][679]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.02.55:674][891]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.04.06:687][103]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.05.17:707][315]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.06.28:740][527]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.07.40:052][740]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.08.51:023][952]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.10.02:016][164]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.11.13:051][376]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.12.24:401][589]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.13.35:334][801]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.14.46:372][ 13]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.15.57:685][226]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.17.08:660][438]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.18.19:622][650]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.19.30:657][862]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.20.41:943][ 75]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.21.52:962][287]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.23.03:947][499]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.24.14:957][711]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.25.21:801][909]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{6d4cc3ec-a079-4bf3-bf54-85f3a5e58ee2}.
+[2020.06.19-11.25.21:801][909]LogTemp: Resetting audio stream to device id 
+[2020.06.19-11.25.21:961][909]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-11.25.21:961][909]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-11.25.23:377][914]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.26.06:515][ 42]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.06.19-11.26.07:184][ 45]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.26.07:184][ 45]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.26.07:184][ 45]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Connection 42 seems to be dead!)
+[2020.06.19-11.26.07:184][ 45]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 42)
+[2020.06.19-11.26.07:184][ 45]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.26.07:184][ 45]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 3 (Closing connection 43)
+[2020.06.19-11.26.07:517][ 46]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.26.34:221][126]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.27.45:273][339]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.28.07:944][407]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.28.07:944][407]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.28.07:945][407]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.28.07:945][407]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 44)
+[2020.06.19-11.28.08:277][408]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.28.56:307][552]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.30.07:384][765]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.30.08:717][769]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.30.08:717][769]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.30.08:718][769]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.30.08:718][769]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 45)
+[2020.06.19-11.30.09:051][770]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.31.18:727][979]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.32.09:420][131]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.32.09:421][131]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.32.09:421][131]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.32.09:421][131]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 46)
+[2020.06.19-11.32.09:754][132]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.32.29:779][192]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.33.40:806][405]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.34.10:148][493]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.34.10:148][493]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.34.10:148][493]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.34.10:148][493]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 47)
+[2020.06.19-11.34.10:483][494]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.34.51:845][618]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.36.02:896][831]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.36.10:901][855]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.36.10:902][855]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.36.10:902][855]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.36.10:902][855]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 48)
+[2020.06.19-11.36.11:236][856]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.37.13:934][ 44]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.38.11:622][217]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.38.11:622][217]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.38.11:622][217]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.38.11:622][217]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 49)
+[2020.06.19-11.38.11:955][218]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.38.24:958][257]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.39.36:326][471]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.40.12:335][579]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.40.12:335][579]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.40.12:335][579]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.40.12:335][579]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 50)
+[2020.06.19-11.40.12:669][580]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.40.47:360][684]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.41.58:371][897]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.42.13:040][941]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.42.13:040][941]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.42.13:040][941]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.42.13:040][941]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 51)
+[2020.06.19-11.42.13:373][942]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.43.09:390][110]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.44.13:743][303]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.44.13:743][303]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.44.13:743][303]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.44.13:743][303]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 52)
+[2020.06.19-11.44.14:076][304]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.44.20:410][323]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.45.31:473][536]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.46.14:481][665]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.46.14:481][665]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.46.14:481][665]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.46.14:481][665]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 53)
+[2020.06.19-11.46.14:814][666]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.46.42:839][750]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.47.53:848][963]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.48.15:195][ 27]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.48.15:195][ 27]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.48.15:195][ 27]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.48.15:195][ 27]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 54)
+[2020.06.19-11.48.15:529][ 28]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.49.04:899][176]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.50.15:927][389]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.50.15:927][389]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.50.15:927][389]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.50.15:927][389]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.50.15:927][389]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 55)
+[2020.06.19-11.50.16:260][390]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.51.26:953][602]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.52.16:622][751]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.52.16:622][751]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.52.16:622][751]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.52.16:622][751]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 56)
+[2020.06.19-11.52.16:954][752]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.52.37:964][815]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.53.49:315][ 29]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.54.17:334][113]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.54.17:335][113]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.54.17:335][113]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.54.17:335][113]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 57)
+[2020.06.19-11.54.17:667][114]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.55.00:352][242]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.56.11:384][455]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.56.18:050][475]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.56.18:051][475]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.56.18:051][475]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.56.18:051][475]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 58)
+[2020.06.19-11.56.18:385][476]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.57.22:406][668]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.58.18:753][837]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-11.58.18:753][837]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-11.58.18:753][837]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-11.58.18:753][837]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 59)
+[2020.06.19-11.58.19:085][838]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-11.58.33:419][881]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-11.59.44:475][ 94]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.00.19:474][199]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.00.19:474][199]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.00.19:474][199]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.00.19:474][199]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 60)
+[2020.06.19-12.00.19:808][200]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.00.55:829][308]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.02.06:857][521]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.02.20:189][561]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.02.20:189][561]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.02.20:189][561]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.02.20:189][561]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 61)
+[2020.06.19-12.02.20:526][562]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.03.17:919][734]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.04.20:960][923]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.04.20:960][923]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.04.20:960][923]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.04.20:961][923]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 62)
+[2020.06.19-12.04.21:295][924]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.04.28:968][947]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.05.39:988][160]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.06.21:678][285]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.06.21:679][285]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.06.21:679][285]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.06.21:679][285]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 63)
+[2020.06.19-12.06.22:011][286]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.06.51:021][373]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.08.02:039][586]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.08.22:372][647]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.08.22:373][647]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.08.22:373][647]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.08.22:373][647]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 64)
+[2020.06.19-12.08.22:707][648]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.09.13:385][800]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.10.23:059][  9]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.10.23:059][  9]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.10.23:059][  9]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.10.23:060][  9]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 65)
+[2020.06.19-12.10.23:393][ 10]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.10.24:397][ 13]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.11.35:401][226]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.12.23:748][371]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.12.23:748][371]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.12.23:748][371]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.12.23:748][371]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 66)
+[2020.06.19-12.12.24:087][372]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.12.46:424][439]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.13.57:468][652]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.14.24:485][733]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.14.24:485][733]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.14.24:486][733]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.14.24:486][733]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 67)
+[2020.06.19-12.14.24:817][734]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.15.08:497][865]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.16.19:856][ 79]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.16.25:193][ 95]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.16.25:193][ 95]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.16.25:193][ 95]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.16.25:193][ 95]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 68)
+[2020.06.19-12.16.25:526][ 96]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.17.30:894][292]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.18.25:912][457]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.18.25:912][457]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.18.25:912][457]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.18.25:912][457]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 69)
+[2020.06.19-12.18.26:246][458]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.18.41:925][505]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.19.52:927][718]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.20.26:628][819]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.20.26:628][819]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.20.26:628][819]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.20.26:628][819]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 70)
+[2020.06.19-12.20.26:961][820]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.21.03:981][931]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.22.15:027][144]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.22.27:361][181]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.22.27:361][181]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.22.27:362][181]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.22.27:362][181]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 71)
+[2020.06.19-12.22.27:694][182]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.23.26:053][357]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.24.28:062][543]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.24.28:062][543]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.24.28:062][543]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.24.28:062][543]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 72)
+[2020.06.19-12.24.28:398][544]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.24.37:402][571]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.25.48:420][784]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.26.28:793][905]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.26.28:794][905]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.26.28:794][905]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.26.28:794][905]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 73)
+[2020.06.19-12.26.29:127][906]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.26.59:480][997]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.28.10:514][210]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.28.29:518][267]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.28.29:519][267]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.28.29:519][267]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.28.29:519][267]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 74)
+[2020.06.19-12.28.29:852][268]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.29.21:577][423]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.30.30:287][629]LogHttp: Warning: 0000021EAA826400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.19-12.30.30:287][629]LogHttp: Warning: 0000021EAA826400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.19-12.30.30:287][629]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.19-12.30.30:287][629]LogHttp: Warning: 0000021EAA826400: libcurl info message cache 1 (Closing connection 75)
+[2020.06.19-12.30.30:621][630]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.19-12.30.32:619][636]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.31.43:810][849]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.32.55:005][ 62]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.34.06:078][274]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.34.16:354][302]LogRenderer: Reallocating scene render targets to support 804x476 Format 10 NumSamples 1 (Frame:18958).
+[2020.06.19-12.34.26:574][501]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.19-12.34.26:667][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.19-12.34.26:704][501]PIE: New page: PIE session: 2DSideScrollerExampleMap (19 juin 2020 à 16:34:26)
+[2020.06.19-12.34.26:721][501]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.19-12.34.26:732][501]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.06.19-12.34.26:732][501]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.06.19-12.34.26:826][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094566s)
+[2020.06.19-12.34.26:835][501]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.06.19-12.34.26:835][501]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021EEF40BE00), frame # 53501
+[2020.06.19-12.34.26:835][501]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021EEF413D80), frame # 53501
+[2020.06.19-12.34.26:836][501]LogPlayLevel: PIE: World Init took: (0.009777s)
+[2020.06.19-12.34.26:836][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.104790s)
+[2020.06.19-12.34.26:918][501]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.06.19-12.34.26:921][501]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.19-12.34.26:921][501]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.19-12.34.26:921][501]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.19-12.34.26:921][501]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.19-12.34.26:921][501]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.19-12.34.26:921][501]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.19-12.34.26:921][501]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.19-12.34.26:921][501]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.19-12.34.26:921][501]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.19-12.34.26:921][501]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.19-12.34.26:979][501]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-12.34.26:980][501]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-12.34.27:003][501]LogAudioMixer: Display: Using Audio Device LG TV (NVIDIA High Definition Audio)
+[2020.06.19-12.34.27:003][501]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.19-12.34.27:003][501]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.19-12.34.27:003][501]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.19-12.34.27:004][501]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.19-12.34.27:021][501]LogInit: FAudioDevice initialized.
+[2020.06.19-12.34.27:078][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.19-12.34.27:079][501]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.06.19-12.34.27:112][501]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.06.19-14.34.27
+[2020.06.19-12.34.27:209][501]LogWorld: Bringing up level for play took: 0.100646
+[2020.06.19-12.34.27:210][501]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.06.19-12.34.27:434][501]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.06.19-12.34.27:458][501]PIE: Server logged in
+[2020.06.19-12.34.27:459][501]PIE: Play in editor total start time 0,803 seconds.
+[2020.06.19-12.34.27:609][502]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.06.19-12.34.29:742][700]LogBlueprintUserMessages: [Bwing_Blueprint2] Bwing+
+[2020.06.19-12.34.31:425][895]LogBlueprintUserMessages: [Bwing_Blueprint2] Bwing X
+[2020.06.19-12.34.32:926][ 70]LogBlueprintUserMessages: [Bwing_Blueprint] Bwing X
+[2020.06.19-12.34.33:323][115]LogBlueprintUserMessages: [Bwing_Blueprint2] Bwing>
+[2020.06.19-12.34.36:161][432]LogBlueprintUserMessages: [2DSideScrollerExampleMap_C_3] Estdanslaboite
+[2020.06.19-12.34.36:518][473]LogBlueprintUserMessages: [2DSideScrollerExampleMap_C_3] Estplusdanslaboite
+[2020.06.19-12.34.37:007][528]LogBlueprintUserMessages: [Bwing_Blueprint] Bwing+
+[2020.06.19-12.34.37:475][576]LogBlueprintUserMessages: [Bwing_Blueprint2] Bwing>
+[2020.06.19-12.34.38:739][724]LogBlueprintUserMessages: [Bwing_Blueprint8] Bwing X
+[2020.06.19-12.34.42:822][206]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.19-12.34.42:831][206]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.19-12.34.42:851][206]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.19-12.34.42:871][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.19-12.34.42:871][206]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.06.19-12.34.42:871][206]LogSlate: Window 'NeonKnight Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.19-12.34.42:878][206]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.19-12.34.42:878][206]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.19-12.34.42:879][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.19-12.34.42:888][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.19-12.34.42:895][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.19-12.34.42:935][206]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.19-12.34.42:972][206]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021EEF40BE00), frame # 55206
+[2020.06.19-12.34.42:972][206]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021EEF413D80), frame # 55206
+[2020.06.19-12.34.42:992][206]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.06.19-12.34.43:026][207]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.06.19-12.35.17:187][692]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.36.28:055][899]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.37.39:267][106]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.38.50:392][312]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.40.01:323][516]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.41.12:294][728]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.42.23:509][941]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.43.34:676][154]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.44.45:804][367]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.45.56:574][511]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.47.07:640][ 38]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.48.18:976][995]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.49.29:822][206]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.50.41:083][418]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.51.52:004][629]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.53.03:245][841]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.54.14:305][ 52]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.55.25:277][263]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.56.36:323][474]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.57.47:385][685]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-12.58.58:490][896]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.00.09:619][107]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.01.20:601][318]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.02.17:548][486]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{07012d9e-715f-40b0-afff-be3d11b97ab1}.
+[2020.06.19-13.02.17:548][486]LogTemp: Resetting audio stream to device id 
+[2020.06.19-13.02.17:618][486]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-13.02.17:618][486]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-13.02.31:957][530]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.03.43:047][742]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.04.53:860][953]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.06.04:924][165]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.07.16:041][377]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.08.27:117][589]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.09.38:191][801]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.10.49:314][ 13]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.12.00:370][225]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.13.11:436][437]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.14.22:571][649]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.15.30:659][852]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.16.41:820][ 64]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.17.52:893][276]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.19.03:955][488]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.20.15:081][700]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.21.26:201][912]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.21.48:521][977]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{6d4cc3ec-a079-4bf3-bf54-85f3a5e58ee2}.
+[2020.06.19-13.21.48:522][977]LogTemp: Resetting audio stream to device id 
+[2020.06.19-13.21.48:843][977]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.19-13.21.48:843][977]LogAudioMixer: Display: 1: FrontRight
+[2020.06.19-13.22.37:325][123]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-13.23.19:607][122]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.06.19-13.23.19:644][122]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.06.19-13.23.19:644][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.19-13.23.19:689][122]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.19-13.23.19:689][122]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.06.19-13.23.19:689][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.19-13.23.19:971][122]LogSlate: Window 'NeonKnight - Unreal Editor' being destroyed
+[2020.06.19-13.23.20:137][123]Cmd: QUIT_EDITOR
+[2020.06.19-13.23.20:137][123]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.06.19-13.23.20:146][123]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.06.19-13.23.20:146][123]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.19-13.23.20:803][123]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.19-13.23.20:815][123]LogExit: Preparing to exit.
+[2020.06.19-13.23.21:109][123]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.06.19-13.23.21:121][123]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.19-13.23.21:121][123]LogExit: Editor shut down
+[2020.06.19-13.23.21:122][123]LogExit: Transaction tracking system shut down
+[2020.06.19-13.23.21:268][123]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000021EBA0A0E00), frame # 80123
+[2020.06.19-13.23.21:268][123]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021EB9FC3B00), frame # 80123
+[2020.06.19-13.23.21:268][123]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021EBA074400), frame # 80123
+[2020.06.19-13.23.21:287][123]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021EA7860600), frame # 80123
+[2020.06.19-13.23.21:287][123]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021EC05B4B80), frame # 80123
+[2020.06.19-13.23.21:341][123]LogExit: Object subsystem successfully closed.
+[2020.06.19-13.23.21:369][123]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.06.19-13.23.21:392][123]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (798)
+[2020.06.19-13.23.21:392][123]LogModuleManager: Shutting down and abandoning module Voice (796)
+[2020.06.19-13.23.21:392][123]LogModuleManager: Shutting down and abandoning module SequencerWidgets (794)
+[2020.06.19-13.23.21:392][123]LogModuleManager: Shutting down and abandoning module BlueprintGraph (792)
+[2020.06.19-13.23.21:392][123]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (790)
+[2020.06.19-13.23.21:392][123]LogModuleManager: Shutting down and abandoning module SceneOutliner (788)
+[2020.06.19-13.23.21:392][123]LogModuleManager: Shutting down and abandoning module AddContentDialog (786)
+[2020.06.19-13.23.21:393][123]LogModuleManager: Shutting down and abandoning module WidgetCarousel (785)
+[2020.06.19-13.23.21:393][123]LogModuleManager: Shutting down and abandoning module EditorWidgets (782)
+[2020.06.19-13.23.21:393][123]LogModuleManager: Shutting down and abandoning module CollectionManager (780)
+[2020.06.19-13.23.21:394][123]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2020.06.19-13.23.21:394][123]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2020.06.19-13.23.21:394][123]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2020.06.19-13.23.21:394][123]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2020.06.19-13.23.21:394][123]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2020.06.19-13.23.21:394][123]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2020.06.19-13.23.21:394][123]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2020.06.19-13.23.21:394][123]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2020.06.19-13.23.21:394][123]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2020.06.19-13.23.21:395][123]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2020.06.19-13.23.21:396][123]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2020.06.19-13.23.21:397][123]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2020.06.19-13.23.21:397][123]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2020.06.19-13.23.21:397][123]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2020.06.19-13.23.21:397][123]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2020.06.19-13.23.21:397][123]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2020.06.19-13.23.21:397][123]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2020.06.19-13.23.23:360][123]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2020.06.19-13.23.23:360][123]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2020.06.19-13.23.23:360][123]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2020.06.19-13.23.23:360][123]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2020.06.19-13.23.23:360][123]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2020.06.19-13.23.23:360][123]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2020.06.19-13.23.23:360][123]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2020.06.19-13.23.23:360][123]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2020.06.19-13.23.23:361][123]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2020.06.19-13.23.23:361][123]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2020.06.19-13.23.23:361][123]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2020.06.19-13.23.23:361][123]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2020.06.19-13.23.23:361][123]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2020.06.19-13.23.23:361][123]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2020.06.19-13.23.23:361][123]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2020.06.19-13.23.23:361][123]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2020.06.19-13.23.23:361][123]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2020.06.19-13.23.23:361][123]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2020.06.19-13.23.23:361][123]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2020.06.19-13.23.23:362][123]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2020.06.19-13.23.23:362][123]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2020.06.19-13.23.23:362][123]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2020.06.19-13.23.23:362][123]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2020.06.19-13.23.23:362][123]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2020.06.19-13.23.23:362][123]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2020.06.19-13.23.23:362][123]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2020.06.19-13.23.23:395][123]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2020.06.19-13.23.23:395][123]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2020.06.19-13.23.23:395][123]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2020.06.19-13.23.23:395][123]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2020.06.19-13.23.23:395][123]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2020.06.19-13.23.23:395][123]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2020.06.19-13.23.23:395][123]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2020.06.19-13.23.23:396][123]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2020.06.19-13.23.23:396][123]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2020.06.19-13.23.23:396][123]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2020.06.19-13.23.23:396][123]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2020.06.19-13.23.23:416][123]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2020.06.19-13.23.23:416][123]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2020.06.19-13.23.23:416][123]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2020.06.19-13.23.23:416][123]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2020.06.19-13.23.23:416][123]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2020.06.19-13.23.23:417][123]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2020.06.19-13.23.23:417][123]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2020.06.19-13.23.23:418][123]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2020.06.19-13.23.23:418][123]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2020.06.19-13.23.23:420][123]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2020.06.19-13.23.23:421][123]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2020.06.19-13.23.23:421][123]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2020.06.19-13.23.23:421][123]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2020.06.19-13.23.23:421][123]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2020.06.19-13.23.23:421][123]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2020.06.19-13.23.23:545][123]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2020.06.19-13.23.23:545][123]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2020.06.19-13.23.23:545][123]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2020.06.19-13.23.23:545][123]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2020.06.19-13.23.23:545][123]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2020.06.19-13.23.23:545][123]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2020.06.19-13.23.23:545][123]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2020.06.19-13.23.23:545][123]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2020.06.19-13.23.23:545][123]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2020.06.19-13.23.23:545][123]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2020.06.19-13.23.23:545][123]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2020.06.19-13.23.23:546][123]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2020.06.19-13.23.23:547][123]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2020.06.19-13.23.23:548][123]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.06.19-13.23.23:549][123]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.06.19-13.23.23:650][123]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.06.19-13.23.23:751][123]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.06.19-13.23.23:751][123]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.06.19-13.23.23:751][123]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.06.19-13.23.23:751][123]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.06.19-13.23.23:751][123]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.06.19-13.23.23:751][123]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.06.19-13.23.23:751][123]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.06.19-13.23.23:751][123]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.06.19-13.23.23:751][123]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.06.19-13.23.23:751][123]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.06.19-13.23.23:751][123]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.06.19-13.23.23:752][123]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.06.19-13.23.23:752][123]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.06.19-13.23.23:752][123]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.06.19-13.23.23:752][123]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.06.19-13.23.23:752][123]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.06.19-13.23.23:752][123]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.06.19-13.23.23:752][123]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.06.19-13.23.23:752][123]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.06.19-13.23.23:753][123]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.06.19-13.23.23:753][123]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.06.19-13.23.23:753][123]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.06.19-13.23.23:753][123]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.06.19-13.23.23:753][123]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.06.19-13.23.23:753][123]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.06.19-13.23.23:754][123]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.06.19-13.23.23:755][123]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.06.19-13.23.23:755][123]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.06.19-13.23.23:756][123]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.06.19-13.23.23:756][123]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.06.19-13.23.23:757][123]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.06.19-13.23.23:757][123]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.06.19-13.23.23:757][123]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.06.19-13.23.23:757][123]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.06.19-13.23.23:757][123]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.06.19-13.23.23:757][123]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.06.19-13.23.23:765][123]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.06.19-13.23.23:766][123]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.06.19-13.23.23:767][123]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.06.19-13.23.23:767][123]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.06.19-13.23.23:767][123]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.06.19-13.23.23:767][123]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.06.19-13.23.23:767][123]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.06.19-13.23.23:767][123]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.06.19-13.23.23:770][123]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.06.19-13.23.23:770][123]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.06.19-13.23.23:770][123]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.06.19-13.23.23:770][123]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.06.19-13.23.23:770][123]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.06.19-13.23.23:770][123]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.06.19-13.23.23:770][123]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.06.19-13.23.23:770][123]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.06.19-13.23.23:771][123]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.06.19-13.23.23:771][123]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.06.19-13.23.23:771][123]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.06.19-13.23.23:771][123]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.06.19-13.23.23:771][123]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.06.19-13.23.23:771][123]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.06.19-13.23.23:771][123]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.06.19-13.23.23:771][123]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.06.19-13.23.23:773][123]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.06.19-13.23.23:773][123]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.06.19-13.23.23:773][123]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.06.19-13.23.23:774][123]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.06.19-13.23.23:775][123]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.06.19-13.23.23:775][123]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.06.19-13.23.23:775][123]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.06.19-13.23.23:775][123]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.06.19-13.23.23:775][123]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.06.19-13.23.23:775][123]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.06.19-13.23.23:775][123]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.06.19-13.23.23:775][123]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.06.19-13.23.23:775][123]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.06.19-13.23.23:775][123]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.06.19-13.23.23:775][123]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.06.19-13.23.23:777][123]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.06.19-13.23.23:778][123]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.06.19-13.23.23:778][123]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.06.19-13.23.23:778][123]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.06.19-13.23.23:778][123]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.06.19-13.23.23:778][123]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.06.19-13.23.23:778][123]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.06.19-13.23.23:778][123]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.06.19-13.23.23:778][123]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.06.19-13.23.23:778][123]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.06.19-13.23.23:780][123]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.06.19-13.23.23:788][123]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.06.19-13.23.23:789][123]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.06.19-13.23.23:789][123]LogHMD: Freeing OpenVRDLLHandle.
+[2020.06.19-13.23.23:789][123]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.06.19-13.23.23:789][123]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.06.19-13.23.23:789][123]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.06.19-13.23.23:789][123]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.06.19-13.23.23:789][123]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.06.19-13.23.23:790][123]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.06.19-13.23.23:790][123]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.06.19-13.23.23:807][123]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.06.19-13.23.23:807][123]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.06.19-13.23.23:807][123]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17DD14E5-4E49-D30B-BCE3-B5BA540D8314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=f9f5d3704c8f95393139328a9bca0c7a%7Cd0e88a65270345e0bc90d156782632da%7C320ed8b2-6fa0-4db4-9d31-489a651ec0cc&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.06.19-13.23.23:807][123]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.19-13.23.24:308][123]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.19-13.23.24:808][123]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.19-13.23.25:308][123]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.19-13.23.25:809][123]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.19-13.23.26:309][123]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2020.06.19-13.23.26:835][123]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.06.19-13.23.26:837][123]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.06.19-13.23.26:840][123]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.06.19-13.23.26:841][123]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.06.19-13.23.26:842][123]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.06.19-13.23.26:842][123]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.06.19-13.23.26:842][123]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.06.19-13.23.26:842][123]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.06.19-13.23.26:842][123]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.06.19-13.23.26:842][123]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.06.19-13.23.26:842][123]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.06.19-13.23.26:843][123]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.06.19-13.23.26:843][123]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.06.19-13.23.26:843][123]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.06.19-13.23.26:843][123]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.06.19-13.23.26:843][123]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.06.19-13.23.26:844][123]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.06.19-13.23.26:844][123]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.06.19-13.23.26:844][123]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.06.19-13.23.26:844][123]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.06.19-13.23.26:846][123]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.06.19-13.23.26:846][123]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.06.19-13.23.26:846][123]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.06.19-13.23.26:846][123]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.06.19-13.23.26:846][123]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.06.19-13.23.26:846][123]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.06.19-13.23.26:846][123]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.06.19-13.23.26:846][123]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.06.19-13.23.26:846][123]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.06.19-13.23.26:847][123]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.06.19-13.23.26:847][123]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.06.19-13.23.26:847][123]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.06.19-13.23.26:847][123]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.06.19-13.23.26:848][123]LogD3D11RHI: Shutdown
+[2020.06.19-13.23.26:848][123]LogD3D11RHI: CleanupD3DDevice
+[2020.06.19-13.23.26:868][123]LogExit: Exiting.
+[2020.06.19-13.23.26:904][123]Log file closed, 06/19/20 15:23:26
